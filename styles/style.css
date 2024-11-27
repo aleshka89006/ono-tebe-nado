@@ -28,7 +28,6 @@ html {
 }
 
 .header__link {
-  text-decoration: none;
   text-transform: lowercase;
   text-decoration: underline;
   text-underline-offset: 4px;
@@ -195,11 +194,11 @@ html {
 }
 
 .card {
-  height: 100%;
-  padding: 51px 40px 48px;
   display: flex; 
   flex-direction: column; 
   justify-content: space-between; 
+  height: 100%;
+  padding: 51px 40px 48px;
   color: #fff;
   line-height: 1.2;
   background-position: center;
